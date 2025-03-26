@@ -1,0 +1,2 @@
+[template]
+include = ["package.json", "manifest.json", "Cargo.toml", "index.html", "boostrap.js", "index.js"]

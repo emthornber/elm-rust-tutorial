@@ -1,8 +1,12 @@
 [package]
 name = "elm-rust-tutorial"
 version = "0.1.0"
-authors = ["thornbem"]
+authors = ["E M Thornber <enchanted.systems@btinternet.com>"]
 edition = "2018"
+license = "GPL-3.0-or-later"
+readme = "README.md"
+description = "A reworking of a tutorial using Vite instead of Webpack"
+repository = "https://github.com/emthornber/elm-rust-tutorial"
 
 [lib]
 crate-type = ["cdylib", "rlib"]

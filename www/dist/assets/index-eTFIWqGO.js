@@ -1,5 +1,5 @@
 (async () => {
-  const __vite__wasmUrl = "/elm-rust-tutorial/www/dist/assets/elm_rust_tutorial_bg-DumdhX1S.wasm";
+  const __vite__wasmUrl = "/elm-rust-tutorial/www/dist/assets/elm_rust_tutorial_bg-CVjD9soW.wasm";
   const __vite__initWasm = async (opts = {}, url) => {
     let result;
     if (url.startsWith("data:")) {

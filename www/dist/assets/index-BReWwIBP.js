@@ -93,7 +93,7 @@
       return baseModule().catch(handlePreloadError);
     });
   };
-  __vitePreload(() => import("./index-6lgRvK3e.js").then(async (m) => {
+  __vitePreload(() => import("./index-eTFIWqGO.js").then(async (m) => {
     await m.__tla;
     return m;
   }), true ? [] : void 0).catch((e) => console.error("Error importing `index.js`:", e));

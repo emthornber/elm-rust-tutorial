@@ -12,7 +12,7 @@
     "modify-paths": "replace 'icons/' '' dist/index.html & replace 'icons/' '' dist/manifest.json",
     "start": "vite preview",
     "watch": "chokidar \"**/*.elm\" -c \"elm make src/Main.elm --output elm.js && replace '\\(this\\)\\);$' '(window));' elm.js\" --initial",
-    "wasm": "wasm-pack build ./elm-rust-tutorial --target web"
+    "wasm": "wasm-pack build --target web"
   },
   "keywords": [
     "elm",
